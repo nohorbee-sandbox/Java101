@@ -16,6 +16,8 @@ public class BinaryGap {
     }
 
     public static void main(String...args) {
-        System.out.println("Gap: " + new BinaryGap().solution(32));
+        int N = 17;
+        System.out.println(Integer.toBinaryString(N));
+        System.out.println("Gap: " + new BinaryGap().solution(N));
     }
 }
